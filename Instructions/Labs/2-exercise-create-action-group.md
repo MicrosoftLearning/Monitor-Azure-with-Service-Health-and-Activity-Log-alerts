@@ -47,13 +47,14 @@ Create an action group that defines who gets notified and how. Action groups are
 3.  Select **Action groups** from the top menu bar.
 4.  Select **+ Create**.
 5.  On the Basics tab, select **rg-gp-monitoring-alerts** as the resource group.
-6.  For **Action group name**, enter **ag-gp-ops-email**.
-7.  For **Display name**, enter **OpsEmail**.
-8.  Select the **Notifications** tab.
-9.  For **Notification type**, select **Email/SMS message/Push/Voice**.
-10. For **Name**, enter **ops-team-email**.
-11. In the panel that opens, check **Email** and enter your email address. Select **OK**.
-12. Select **Review + create** and then select **Create**.
+6.  For **Region**, select **Global**. This action group is used with a Service Health alert in the next exercise.
+7.  For **Action group name**, enter **ag-gp-ops-email**.
+8.  For **Display name**, enter **OpsEmail**.
+9.  Select the **Notifications** tab.
+10. For **Notification type**, select **Email/SMS message/Push/Voice**.
+11. For **Name**, enter **ops-team-email**.
+12. In the panel that opens, check **Email** and enter your email address. Select **OK**.
+13. Select **Review + create** and then select **Create**.
 
 > [!NOTE]
 > **Validation step:** Confirm the **ag-gp-ops-email** action group is created with email notification configured.
